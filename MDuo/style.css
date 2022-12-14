@@ -32,8 +32,12 @@ body {
     display: flex;
     justify-content: center;
     background-color: #8e7e75;
-    height: 250px;
+    height: 25vh;
     align-items: center;
+  }
+  #sessao1 h1 {
+    font-size: 4rem;
+    text-align: center;
   }
   #sessao1 p{
     text-align: end;
@@ -50,7 +54,7 @@ body {
   .header{
     border: none;
     background-color: #8e7e75;
-;
+
   }
   .container{ 
     display: flex;
@@ -61,11 +65,15 @@ body {
     width: 90%;
   }
 
+  .logo{
+    width: 10rem;
+  }
+
    #menu {
     display: flex;
     list-style: none;
     gap: 5rem;
-    font-size: 3rem;
+    font-size: 2rem;
 }
  #menu a {
     text-decoration: none;
@@ -97,7 +105,7 @@ body {
 .slider{
   margin: 0 auto;
   width: 100%;
-  height: 800px;
+  height: 600px;
   overflow: hidden;
 }
 .slides{
@@ -194,14 +202,16 @@ body {
  
 
   .rodape {
-    height: 20vh;
+    height: 25vh;
     background-color: #8e7e75;
+    width: 100%;
     padding: 100px;
     border: none;
     margin-top: 25px;
     text-align: center;
     padding-top: 50px;
-    padding-bottom: auto;
+    
+    
    
 }
 .rodape i {
